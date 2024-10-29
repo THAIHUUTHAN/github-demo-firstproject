@@ -68,9 +68,9 @@ public class giaipt {
 		Scanner sc = new Scanner(System.in);
 		System.out.println(">>LỰA CHỌN TÍNH NĂNG<<");
 		System.out.println("++-------------------------------++");
-		System.out.println("|1.Giải pt bậc nhất		|");
-		System.out.println("|2.Giải pt bậc hai		|");
-		System.out.println("|3.Kết Thúc			|");
+		System.out.println("|1.Giải pt bậc nhất\t\t|");
+		System.out.println("|2.Giải pt bậc hai\t\t|");
+		System.out.println("|3.Kết Thúc\t\t\t|");
 		System.out.println("++-------------------------------++");
 		int x = sc.nextInt();
 		switch (x) {

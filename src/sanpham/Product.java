@@ -44,7 +44,13 @@ public class Product {
 	public void setTax(double tax1) {
 		this.tax = tax1;
 	}
+
 // class method
+	public Product nhapThongTin1(String name, double price, double tax) {
+		Product pr = new Product(name, price, tax);
+		return pr;
+
+	}
 
 	public void nhapThongTin() {
 		Scanner sc = new Scanner(System.in);

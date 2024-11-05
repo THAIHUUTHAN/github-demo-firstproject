@@ -1,10 +1,17 @@
 package chapter7;
 
-public class SinhVien {
+public abstract class SinhVien {
 	String id;
 	String name;
 	double price;
 	double tax;
+
+	public SinhVien(String id, String name, double price, double tax) {
+		this.id = id;
+		this.name = name;
+		this.price = price;
+		this.tax = tax;
+	}
 
 	public String getId() {
 		return id;
@@ -49,6 +56,8 @@ public class SinhVien {
 	public void info() {
 		System.out.println("Run info from parent ");
 	}
+
+	abstract void tinhDiem();
 
 	@Override
 	public String toString() {
